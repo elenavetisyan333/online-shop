@@ -11,7 +11,7 @@ function Header() {
 
                 <div className="logoPart">
                     <NavLink to="/home">
-                        <img src="public/logo.png" alt="logo" height="45px"/>
+                        <img src="/logo.png" alt="logo" height="45px"/>
                     </NavLink>
                 </div>
 
@@ -26,7 +26,7 @@ function Header() {
 
                 <div className="basketPart">
                     <NavLink to="/basket">
-                        <img src="public/basket.png" alt="basket" height="40px" />
+                        <img src="/basket.png" alt="basket" height="40px" />
                     </NavLink>
                     {
                         basketProducts.length > 0 ? <p>{basketProducts.length}</p> : ""
