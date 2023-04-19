@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -8,4 +12,154 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+#root{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #1C1C1C;
+  color: white;
+}
+
+/* Header */
+.header {
+  background-color: #1f1f1f;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.insideHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.active-link{
+  color: #F5CB5C;
+}
+.basketPart{
+  position: relative;
+}
+.basketPart p {
+  position: absolute;
+  display: grid;
+  right: -5px;
+  top: -5px;
+  height: 14px;
+  width: 14px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 8px rgba(168, 168, 168, 0.5);
+  border-radius: 50%;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+}
+
+.basketPart{
+  filter: brightness(110%);
+}
+.basketPart:hover{
+  filter: grayscale(7%);
+}
+
+/* Home */
+.products{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  padding: 70px 100px;
+}
+
+/* Cart  */
+.cart {
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(168, 168, 168, 0.3);
+  margin: 20px;
+  padding: 20px;
+}
+
+.cart .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cart .info .mainInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart .info h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1.5px 1px 0.5px black;
+}
+.cart .info .name{
+  color: #eee;
+}
+.cart .info .price{
+  color: #F5CB5C;
+}
+
+
+.cart .info p {
+  line-height: 1.2;
+  color: #d4d4d4;
+}
+
+.cart .forBasket {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+.cart .forBasket p {
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1.5px 1px 0.5px black;
+
+  color: #eee;
+}
+.forBasket button{
+  padding: 9px 7px;
+  border: none;
+  font-size: 16px;
+  border-radius: 9px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1.5px 1px 0.5px black;
+  outline: none;
+}
+.forBasket button:hover{
+  cursor: pointer;
+}
+.addButton{
+  background-color: #2ecc71;
+}
+.removeButton{
+  background-color: #e74c3c;
+} 
+
+.cart .forBasket button:hover {
+  filter: brightness(90%);
+}
+
+.cart .forBasket button:disabled{
+  filter: grayscale(80%);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: not-allowed;
 }
