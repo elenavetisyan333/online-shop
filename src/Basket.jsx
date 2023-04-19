@@ -6,8 +6,8 @@ function Basket() {
   const basketProducts = useSelector(store => store.basketProducts.basketProducts);
   
   return (
-    <div className="basket">
-        <div className="basketProducts">
+    <div className="home">
+        <div className="products">
             {
                 basketProducts.map(prod =>{
                   console.log(prod);
