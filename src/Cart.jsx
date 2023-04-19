@@ -37,14 +37,20 @@ function Cart({product}) {
     
     return (
         <div className="cart">
-            <img src={product.image} alt="product image" height={200}/>
+            <div style={{height: "300px",
+                        backgroundImage: `url(${product.image})`,
+                        backgroundSize: "100% 300px",
+                        backgroundPosition: "center"
+            }}/>
+
             <div className="info">
                 <div className="mainInfo">
-                    <h2>{product.name}</h2>
-                    <h2>${product.price}</h2>
+                    <h2 className="name">{product.name}</h2>
+                    <h2 className="price">${product.price}</h2>
                 </div>
                 <p>{product.description}</p>
             </div>
+            
             <div className="forBasket">
                 <button className="removeButton" onClick={removeFromBasket} disabled={!product.itemsInTheBasket > 0}>Remove From Basket</button>
                 <p>{product.count}</p>
