@@ -1,12 +1,13 @@
 {
-    "prodcuts": [
+    "products": [
         {
           "id": 1,
           "name": "iPhone 13",
           "price": 799,
           "description": "The latest iPhone with A15 Bionic chip and advanced camera system.",
           "image": "https://3dplanet.am/wp-content/uploads/2021/09/13-Starlight.jpg",
-          "count": 10
+          "count": 10,
+          "itemsInTheBasket": 0
         },
         {
           "id": 2,
@@ -14,7 +15,8 @@
           "price": 1299,
           "description": "Powerful laptop with M1 Pro or M1 Max chip and stunning Retina display.",
           "image": "https://allcell.am/wp-content/uploads/2021/11/552125-Product-0-I-637702397885432791_800x800-593x593.jpg.webp",
-          "count": 5
+          "count": 5,
+          "itemsInTheBasket": 0
         },
         {
           "id": 3,
@@ -22,7 +24,8 @@
           "price": 599,
           "description": "Powerful and versatile tablet with A14 Bionic chip and stunning Liquid Retina display.",
           "image": "https://www.apple.com/newsroom/images/product/ipad/standard/apple_ipad-air-availability_colors_10162020_big.jpg.large.jpg",
-          "count": 8
+          "count": 8,
+          "itemsInTheBasket": 0
         },
         {
           "id": 4,
@@ -30,7 +33,8 @@
           "price": 249,
           "description": "Wireless earbuds with active noise cancellation and customizable fit.",
           "image": "https://redstore.am/uploads/shop/products/large/ec6d9e17b78beac4965f61be39be906b.jpg",
-          "count": 15
+          "count": 15,
+          "itemsInTheBasket": 0
         },
         {
           "id": 5,
@@ -38,7 +42,8 @@
           "price": 399,
           "description": "Advanced smartwatch with larger display, new watch faces, and health features.",
           "image": "https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7_hero_09142021_big.jpg.large.jpg",
-          "count": 3
+          "count": 3,
+          "itemsInTheBasket": 0
         },
         {
             "id": 6,
@@ -46,7 +51,8 @@
             "price": 1499,
             "description": "Powerful all-in-one desktop computer with M1 chip and stunning 24-inch Retina display.",
             "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/imac-24-blue-cto-hero-202104?wid=1254&hei=1132&fmt=jpeg&qlt=90&.v=1617479508000",
-            "count": 4
+            "count": 4,
+            "itemsInTheBasket": 0
         }
     ]
 }
