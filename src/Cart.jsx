@@ -40,7 +40,8 @@ function Cart({product}) {
             <div style={{height: "300px",
                         backgroundImage: `url(${product.image})`,
                         backgroundSize: "100% 300px",
-                        backgroundPosition: "center"
+                        backgroundPosition: "center",
+                        borderRadius: "8px"
             }}/>
 
             <div className="info">

@@ -87,21 +87,18 @@ a{
   margin: 20px;
   padding: 20px;
 }
-
 .cart .info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-top: 20px;
 }
-
 .cart .info .mainInfo {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
 }
-
 .cart .info h2 {
   font-size: 20px;
   font-weight: bold;
@@ -113,13 +110,10 @@ a{
 .cart .info .price{
   color: #F5CB5C;
 }
-
-
 .cart .info p {
   line-height: 1.2;
   color: #d4d4d4;
 }
-
 .cart .forBasket {
   display: flex;
   justify-content: space-between;
